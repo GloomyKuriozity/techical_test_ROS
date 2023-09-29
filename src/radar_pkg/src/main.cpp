@@ -49,16 +49,15 @@ bool sortByAngle(const Obstacle& a, const Obstacle& b) {
     return angleA < angleB;
 }
 
-int main(){
-    //Retreives radar visibility range in inputX.txt
-    //Retreives number of obstacle in inputX.txt
-    int visibility;
-    int numObstacles;
-    std::cin >> visibility;
-    std::cin >> numObstacles;
+void processObstacle(int visibility, int numObstacles){
+    /*
+        Display obstacle in order of detection
 
-    //Create obstacle objectS
-    //Every line of coordinates in the file will be processed as obstacle
+        Args:
+            visibility (int): radar range of visibility
+            numObstacles (int): number of obstacle in environment
+    */
+   
     std::vector<Obstacle> obstacles;
 
     //Fill obstacle info and push it in the vector listing all obstacles
@@ -84,6 +83,17 @@ int main(){
         std::cout << obstacle.index << " ";
     }
     std::cout << std::endl;
+}
+
+int main(){
+    //Retreives radar visibility range in inputX.txt
+    //Retreives number of obstacle in inputX.txt
+    int visibility;
+    int numObstacles;
+    std::cin >> visibility;
+    std::cin >> numObstacles;
+
+    void processObstacle(int visibility, int numObstacles);
 
     return 0;
 }
