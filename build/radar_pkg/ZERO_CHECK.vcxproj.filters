@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\radar_ws\build\radar_pkg\CMakeFiles\10269c41ba57314b25fe87b397446954\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9C2A4567-5C87-3A84-981F-56F6EEC73F62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
