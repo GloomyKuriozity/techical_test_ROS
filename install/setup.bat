@@ -8,7 +8,6 @@
 :: source chained prefixes
 call:_colcon_prefix_chain_bat_call_script "C:\opt\ros\foxy\x64\local_setup.bat"
 call:_colcon_prefix_chain_bat_call_script "C:\opt\ros\foxy\x64\\local_setup.bat"
-call:_colcon_prefix_chain_bat_call_script "C:\radar_ws\install\\local_setup.bat"
 
 :: source this prefix
 call:_colcon_prefix_chain_bat_call_script "%%~dp0local_setup.bat"
