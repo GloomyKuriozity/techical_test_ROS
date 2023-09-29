@@ -21,14 +21,14 @@
 	TotalVirtualMemory="18749"
 	TotalPhysicalMemory="16317"
 	LogicalProcessorsPerPhysical="1"
-	ProcessorClockFrequency="2307"
+	ProcessorClockFrequency="2304"
 	>
 	<Testing>
-		<StartDateTime>Sep 29 22:26 Paris, Madrid (heure d?[NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</StartDateTime>
-		<StartTestTime>1696019212</StartTestTime>
+		<StartDateTime>Sep 29 23:13 Paris, Madrid (heure d?[NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</StartDateTime>
+		<StartTestTime>1696022026</StartTestTime>
 		<TestList/>
-		<EndDateTime>Sep 29 22:26 Paris, Madrid (heure d?[NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</EndDateTime>
-		<EndTestTime>1696019212</EndTestTime>
+		<EndDateTime>Sep 29 23:13 Paris, Madrid (heure d?[NON-UTF-8-BYTE-0xE9]t[NON-UTF-8-BYTE-0xE9])</EndDateTime>
+		<EndTestTime>1696022026</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
