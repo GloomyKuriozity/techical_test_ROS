@@ -19,7 +19,7 @@ int main(){
     std::cin >> visibility;
     std::cin >> numObstacles;
 
-    void processObstacle(int visibility, int numObstacles);
+    processObstacle(visibility, numObstacles);
 
     return 0;
 }
