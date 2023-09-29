@@ -1,0 +1,356 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "main.exe"
+		},
+		{
+			"path" : "main.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"ament_target_dependencies",
+			"add_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/opt/ros/foxy/x64/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 37,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 145,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 141,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 6,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"fragment" : "-std=gnu++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "DEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "_CRT_SECURE_NO_WARNINGS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "C:/radar_ws/src/radar_pkg/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "C:/opt/ros/foxy/x64/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"id" : "main::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			},
+			{
+				"backtrace" : 3,
+				"path" : "lib/radar_pkg"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "C:/Program Files (x86)/radar_pkg"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rclcpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\libstatistics_collector.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_interfaces__rosidl_typesupport_introspection_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_interfaces__rosidl_generator_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_interfaces__rosidl_typesupport_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_interfaces__rosidl_typesupport_introspection_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_interfaces__rosidl_typesupport_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rmw_implementation.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rmw.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_logging_spdlog.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\spdlog.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcl_yaml_param_parser.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\yaml.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosgraph_msgs__rosidl_typesupport_introspection_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosgraph_msgs__rosidl_generator_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosgraph_msgs__rosidl_typesupport_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosgraph_msgs__rosidl_typesupport_introspection_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosgraph_msgs__rosidl_typesupport_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\statistics_msgs__rosidl_typesupport_introspection_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\statistics_msgs__rosidl_generator_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\statistics_msgs__rosidl_typesupport_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\statistics_msgs__rosidl_typesupport_introspection_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\statistics_msgs__rosidl_typesupport_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\builtin_interfaces__rosidl_typesupport_introspection_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\builtin_interfaces__rosidl_generator_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\builtin_interfaces__rosidl_typesupport_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\builtin_interfaces__rosidl_typesupport_introspection_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosidl_typesupport_introspection_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosidl_typesupport_introspection_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\builtin_interfaces__rosidl_typesupport_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosidl_typesupport_cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosidl_typesupport_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcpputils.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rosidl_runtime_c.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\rcutils.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "C:\\opt\\ros\\foxy\\x64\\lib\\tracetools.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

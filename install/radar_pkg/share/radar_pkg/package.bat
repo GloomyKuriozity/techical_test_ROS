@@ -6,6 +6,7 @@
 for %%p in ("%~dp0..\..") do set "COLCON_CURRENT_PREFIX=%%~fp"
 
 call:call_file "%%COLCON_CURRENT_PREFIX%%\share\radar_pkg\hook\cmake_prefix_path.bat"
+call:call_file "%%COLCON_CURRENT_PREFIX%%\share\radar_pkg\hook\path.bat"
 call:call_file "%%COLCON_CURRENT_PREFIX%%\share/radar_pkg/local_setup.bat"
 
 set COLCON_CURRENT_PREFIX=
