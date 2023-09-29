@@ -75,10 +75,15 @@ int main(){
         }
     }
 
-
     // Sort obstacles based on angle.
     // sortByAngle impose the order by increasing angle
     std::sort(obstacles.begin(), obstacles.end(), sortByAngle);
+
+    // Print result : obstacles indices in order of detection
+    for (const auto& obstacle : obstacles) {
+        std::cout << obstacle.index << " ";
+    }
+    std::cout << std::endl;
 
     return 0;
 }
