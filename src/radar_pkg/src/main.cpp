@@ -11,6 +11,8 @@ NOTE - None :)
 #include <fstream>
 #include "functions.h"
 
+
+// To run this code you need to write main < /path/to/inputX.txt
 int main(){
     //Retreives radar visibility range in inputX.txt
     //Retreives number of obstacle in inputX.txt
