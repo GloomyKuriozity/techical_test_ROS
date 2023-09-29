@@ -318,6 +318,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\radar_ws\src\radar_pkg\src\main.cpp" />
+    <ClCompile Include="C:\radar_ws\src\radar_pkg\src\functions.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:\radar_ws\build\radar_pkg\ZERO_CHECK.vcxproj">

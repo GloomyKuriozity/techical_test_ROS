@@ -224,6 +224,33 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/functions.obj: src/functions.cpp.obj
+
+.PHONY : src/functions.obj
+
+# target to build an object file
+src/functions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/functions.cpp.obj
+.PHONY : src/functions.cpp.obj
+
+src/functions.i: src/functions.cpp.i
+
+.PHONY : src/functions.i
+
+# target to preprocess a source file
+src/functions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/functions.cpp.i
+.PHONY : src/functions.cpp.i
+
+src/functions.s: src/functions.cpp.s
+
+.PHONY : src/functions.s
+
+# target to generate assembly for a file
+src/functions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/functions.cpp.s
+.PHONY : src/functions.cpp.s
+
 src/main.obj: src/main.cpp.obj
 
 .PHONY : src/main.obj
@@ -267,6 +294,9 @@ help:
 	@echo ... radar_pkg_uninstall
 	@echo ... uninstall
 	@echo ... main
+	@echo ... src/functions.obj
+	@echo ... src/functions.i
+	@echo ... src/functions.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

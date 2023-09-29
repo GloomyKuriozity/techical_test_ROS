@@ -17,6 +17,6 @@ struct Obstacle {
     int y;
 };
 
-void processObstacles(int visibility, int numObstacles);
+void processObstacle(int visibility, int numObstacles);
 
 #endif // FUNCTIONS_H

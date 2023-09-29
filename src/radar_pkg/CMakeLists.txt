@@ -21,7 +21,7 @@ find_package(rclcpp REQUIRED)
 
 include_directories(include)
 
-add_executable(main src/main.cpp)
+add_executable(main src/main.cpp src/functions.cpp)
 
 ament_target_dependencies(main rclcpp)
 

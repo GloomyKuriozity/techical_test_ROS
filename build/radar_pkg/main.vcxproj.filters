@@ -4,6 +4,9 @@
     <ClCompile Include="C:\radar_ws\src\radar_pkg\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\radar_ws\src\radar_pkg\src\functions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\radar_ws\src\radar_pkg\CMakeLists.txt" />
