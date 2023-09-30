@@ -722,6 +722,30 @@
 			"value" : "OFF"
 		},
 		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include pthread.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -1342,6 +1366,30 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_FastRTPS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding FastRTPS"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/opt/ros/foxy/x64/include][C:/opt/ros/foxy/x64/Lib/fastrtps-2.0.lib;C:/opt/ros/foxy/x64/Lib/fastcdr-1.0.lib][v()]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_OpenSSL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding OpenSSL"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[C:/opt/ros/foxy/x64/Lib/libcrypto.lib][C:/opt/ros/foxy/x64/include][c ][v1.1.1g()]"
+		},
+		{
 			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp",
 			"properties" : 
 			[
@@ -1352,6 +1400,110 @@
 			],
 			"type" : "INTERNAL",
 			"value" : "[C:/msys64/mingw64/bin/python3.exe][v3.9.6(3)]"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
+			"name" : "FastCDR_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "FastCDR_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "FastCDR_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Lib/fastcdr-1.0.lib"
+		},
+		{
+			"name" : "FastRTPS_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/include"
+		},
+		{
+			"name" : "FastRTPS_LIBRARY_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "FastRTPS_LIBRARY_DEBUG-NOTFOUND"
+		},
+		{
+			"name" : "FastRTPS_LIBRARY_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Lib/fastrtps-2.0.lib"
+		},
+		{
+			"name" : "LIB_EAY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Lib/libcrypto.lib"
+		},
+		{
+			"name" : "OPENSSL_INCLUDE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a file."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/include"
 		},
 		{
 			"name" : "PYTHON_EXECUTABLE",
@@ -1392,6 +1544,46 @@
 			],
 			"type" : "STRING",
 			"value" : "DESKTOP-540HHKN"
+		},
+		{
+			"name" : "SSL_EAY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Lib/libssl.lib"
+		},
+		{
+			"name" : "TinyXML2_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for TinyXML2."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/tinyxml2"
+		},
+		{
+			"name" : "_lib",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a library."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Lib/rosgraph_msgs__rosidl_typesupport_fastrtps_cpp.lib"
 		},
 		{
 			"name" : "ament_cmake_DIR",
@@ -1682,6 +1874,30 @@
 			"value" : "C:/opt/ros/foxy/x64/Scripts/ament_copyright.exe"
 		},
 		{
+			"name" : "ament_cppcheck_BIN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Scripts/ament_cppcheck.exe"
+		},
+		{
+			"name" : "ament_cpplint_BIN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Scripts/ament_cpplint.exe"
+		},
+		{
 			"name" : "ament_lint_auto_DIR",
 			"properties" : 
 			[
@@ -1718,6 +1934,18 @@
 			"value" : "C:/opt/ros/foxy/x64/share/ament_lint_common/cmake"
 		},
 		{
+			"name" : "ament_uncrustify_BIN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "C:/opt/ros/foxy/x64/Scripts/ament_uncrustify.exe"
+		},
+		{
 			"name" : "ament_xmllint_BIN",
 			"properties" : 
 			[
@@ -1728,6 +1956,174 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "C:/opt/ros/foxy/x64/Scripts/ament_xmllint.exe"
+		},
+		{
+			"name" : "builtin_interfaces_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for builtin_interfaces."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/builtin_interfaces/cmake"
+		},
+		{
+			"name" : "fastcdr_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for fastcdr."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/lib/cmake/fastcdr"
+		},
+		{
+			"name" : "fastrtps_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for fastrtps."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/fastrtps/cmake"
+		},
+		{
+			"name" : "fastrtps_cmake_module_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for fastrtps_cmake_module."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/fastrtps_cmake_module/cmake"
+		},
+		{
+			"name" : "foonathan_memory_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for foonathan_memory."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/foonathan_memory/cmake"
+		},
+		{
+			"name" : "libstatistics_collector_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for libstatistics_collector."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/libstatistics_collector/cmake"
+		},
+		{
+			"name" : "libyaml_vendor_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for libyaml_vendor."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/libyaml_vendor/cmake"
+		},
+		{
+			"name" : "rcl_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rcl."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rcl/cmake"
+		},
+		{
+			"name" : "rcl_interfaces_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rcl_interfaces."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rcl_interfaces/cmake"
+		},
+		{
+			"name" : "rcl_logging_spdlog_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rcl_logging_spdlog."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rcl_logging_spdlog/cmake"
+		},
+		{
+			"name" : "rcl_yaml_param_parser_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rcl_yaml_param_parser."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rcl_yaml_param_parser/cmake"
+		},
+		{
+			"name" : "rclcpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rclcpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rclcpp/cmake"
+		},
+		{
+			"name" : "rcpputils_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rcpputils."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rcpputils/cmake"
+		},
+		{
+			"name" : "rcutils_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rcutils."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rcutils/cmake"
 		},
 		{
 			"name" : "rl_pkg_BINARY_DIR",
@@ -1754,6 +2150,270 @@
 			"value" : "C:/ws/techical_test_ROS/rl_ws/src/rl_pkg"
 		},
 		{
+			"name" : "rmw_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rmw."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rmw/cmake"
+		},
+		{
+			"name" : "rmw_implementation_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rmw_implementation."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rmw_implementation/cmake"
+		},
+		{
+			"name" : "rmw_implementation_cmake_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rmw_implementation_cmake."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake"
+		},
+		{
+			"name" : "rosgraph_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosgraph_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosgraph_msgs/cmake"
+		},
+		{
+			"name" : "rosidl_adapter_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_adapter."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake"
+		},
+		{
+			"name" : "rosidl_cmake_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_cmake."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_cmake/cmake"
+		},
+		{
+			"name" : "rosidl_default_runtime_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_default_runtime."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_default_runtime/cmake"
+		},
+		{
+			"name" : "rosidl_generator_c_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_generator_c."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_generator_c/cmake"
+		},
+		{
+			"name" : "rosidl_generator_cpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_generator_cpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_generator_cpp/cmake"
+		},
+		{
+			"name" : "rosidl_runtime_c_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_runtime_c."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_runtime_c/cmake"
+		},
+		{
+			"name" : "rosidl_runtime_cpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_runtime_cpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_runtime_cpp/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_c_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_c."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_c/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_cpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_cpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_cpp/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_fastrtps_c_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_c."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_fastrtps_c/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_fastrtps_cpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_fastrtps_cpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_fastrtps_cpp/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_interface_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_interface."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_interface/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_introspection_c_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_introspection_c."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_c/cmake"
+		},
+		{
+			"name" : "rosidl_typesupport_introspection_cpp_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for rosidl_typesupport_introspection_cpp."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/rosidl_typesupport_introspection_cpp/cmake"
+		},
+		{
+			"name" : "spdlog_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for spdlog."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/lib/cmake/spdlog"
+		},
+		{
+			"name" : "spdlog_vendor_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for spdlog_vendor."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/spdlog_vendor/cmake"
+		},
+		{
+			"name" : "statistics_msgs_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for statistics_msgs."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/statistics_msgs/cmake"
+		},
+		{
+			"name" : "tracetools_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for tracetools."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/share/tracetools/cmake"
+		},
+		{
 			"name" : "xmllint_BIN",
 			"properties" : 
 			[
@@ -1764,6 +2424,18 @@
 			],
 			"type" : "FILEPATH",
 			"value" : "xmllint_BIN-NOTFOUND"
+		},
+		{
+			"name" : "yaml_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The directory containing a CMake configuration file for yaml."
+				}
+			],
+			"type" : "PATH",
+			"value" : "C:/opt/ros/foxy/x64/CMake"
 		}
 	],
 	"kind" : "cache",

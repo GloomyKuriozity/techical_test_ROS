@@ -524,3 +524,55 @@ Parsed CXX implicit link information from above output:
   implicit fwks: []
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: C:/ws/techical_test_ROS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe cmTC_6721b/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6721b.dir\build.make CMakeFiles/cmTC_6721b.dir/build
+mingw32-make[1]: Entering directory 'C:/ws/techical_test_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6721b.dir/CheckIncludeFile.c.obj
+C:\msys64\mingw64\bin\gcc.exe    -o CMakeFiles\cmTC_6721b.dir\CheckIncludeFile.c.obj -c C:\ws\techical_test_ROS\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+Linking C executable cmTC_6721b.exe
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_6721b.dir\link.txt --verbose=1
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\cmTC_6721b.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_6721b.dir/objects.a @CMakeFiles\cmTC_6721b.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe -Wl,--whole-archive CMakeFiles\cmTC_6721b.dir/objects.a -Wl,--no-whole-archive -o cmTC_6721b.exe -Wl,--out-implib,libcmTC_6721b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_6721b.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/ws/techical_test_ROS/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: C:/ws/techical_test_ROS/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/msys64/mingw64/bin/mingw32-make.exe cmTC_1858a/fast && C:/msys64/mingw64/bin/mingw32-make.exe  -f CMakeFiles\cmTC_1858a.dir\build.make CMakeFiles/cmTC_1858a.dir/build
+mingw32-make[1]: Entering directory 'C:/ws/techical_test_ROS/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1858a.dir/src.c.obj
+C:\msys64\mingw64\bin\gcc.exe   -DCMAKE_HAVE_LIBC_PTHREAD -o CMakeFiles\cmTC_1858a.dir\src.c.obj -c C:\ws\techical_test_ROS\build\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTC_1858a.exe
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -E cmake_link_script CMakeFiles\cmTC_1858a.dir\link.txt --verbose=1
+C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\cmTC_1858a.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe cr CMakeFiles\cmTC_1858a.dir/objects.a @CMakeFiles\cmTC_1858a.dir\objects1.rsp
+C:\msys64\mingw64\bin\gcc.exe  -DCMAKE_HAVE_LIBC_PTHREAD -Wl,--whole-archive CMakeFiles\cmTC_1858a.dir/objects.a -Wl,--no-whole-archive -o cmTC_1858a.exe -Wl,--out-implib,libcmTC_1858a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_1858a.dir\linklibs.rsp
+mingw32-make[1]: Leaving directory 'C:/ws/techical_test_ROS/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

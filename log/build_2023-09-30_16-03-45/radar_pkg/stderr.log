@@ -1,0 +1,35 @@
+Traceback (most recent call last):
+  File "runpy.py", line 194, in _run_module_as_main
+  File "runpy.py", line 87, in _run_code
+  File "C:\opt\ros\foxy\x64\Scripts\cmake.EXE\__main__.py", line 7, in <module>
+  File "c:\opt\ros\foxy\x64\lib\site-packages\cmake\__init__.py", line 46, in cmake
+    raise SystemExit(_program('cmake', sys.argv[1:]))
+  File "c:\opt\ros\foxy\x64\lib\site-packages\cmake\__init__.py", line 42, in _program
+    return subprocess.call([os.path.join(CMAKE_BIN_DIR, name)] + args)
+  File "subprocess.py", line 342, in call
+  File "subprocess.py", line 1079, in wait
+  File "subprocess.py", line 1357, in _wait
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "c:\opt\ros\foxy\x64\lib\site-packages\colcon_parallel_executor\executor\parallel.py", line 67, in execute
+    loop.run_until_complete(future)
+  File "asyncio\base_events.py", line 603, in run_until_complete
+  File "asyncio\windows_events.py", line 316, in run_forever
+  File "asyncio\base_events.py", line 570, in run_forever
+  File "asyncio\base_events.py", line 1823, in _run_once
+  File "asyncio\windows_events.py", line 430, in select
+  File "asyncio\windows_events.py", line 779, in _poll
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\opt\ros\foxy\x64\lib\site-packages\colcon_core\executor\__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "c:\opt\ros\foxy\x64\lib\site-packages\colcon_core\task\__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "c:\opt\ros\foxy\x64\lib\site-packages\colcon_ros\task\ament_cmake\build.py", line 66, in build
+    if await has_target(args.build_base, 'install'):
+  File "c:\opt\ros\foxy\x64\lib\site-packages\colcon_cmake\task\cmake\__init__.py", line 56, in has_target
+    if 'Unix Makefiles' in generator:
+TypeError: argument of type 'NoneType' is not iterable
