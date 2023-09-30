@@ -1,0 +1,50 @@
+[0.094s] Invoking command in 'C:\radar_ws\build\radar_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\radar_ws\src\radar_pkg -DCMAKE_INSTALL_PREFIX=C:\radar_ws\install\radar_pkg
+[0.219s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+[0.250s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.328s] -- Using PYTHON_EXECUTABLE: C:/msys64/mingw64/bin/python3.exe
+[0.828s] -- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+[0.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.938s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[2.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.313s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[2.328s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.578s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[2.766s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.766s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.766s] -- Configured cppcheck include dirs: C:/radar_ws/src/radar_pkg/include
+[2.766s] -- Configured cppcheck exclude dirs and/or files: 
+[2.781s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.781s] -- Configured cpplint exclude dirs and/or files: 
+[2.781s] -- Added test 'lint_cmake' to check CMake code style
+[2.797s] -- Added test 'uncrustify' to check C / C++ code style
+[2.797s] -- Configured uncrustify additional arguments: 
+[2.797s] -- Added test 'xmllint' to check XML markup files
+[2.875s] -- Configuring done
+[3.219s] -- Generating done
+[3.234s] -- Build files have been written to: C:/radar_ws/build/radar_pkg
+[3.250s] Invoked command in 'C:\radar_ws\build\radar_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\radar_ws\src\radar_pkg -DCMAKE_INSTALL_PREFIX=C:\radar_ws\install\radar_pkg
+[3.266s] Invoking command in 'C:\radar_ws\build\radar_pkg': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\radar_ws\build\radar_pkg --config Release
+[3.516s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[3.516s] Copyright (C) Microsoft Corporation. All rights reserved.
+[3.516s] 
+[4.328s]   functions.cpp
+[4.328s]   main.cpp
+[5.563s]   main.vcxproj -> C:\radar_ws\build\radar_pkg\Release\main.exe
+[5.641s] Invoked command in 'C:\radar_ws\build\radar_pkg' returned '0': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\radar_ws\build\radar_pkg --config Release
+[5.813s] Invoking command in 'C:\radar_ws\build\radar_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\radar_ws\build\radar_pkg --config Release
+[5.953s] -- Installing: C:/radar_ws/install/radar_pkg/bin/main.exe
+[5.984s] -- Installing: C:/radar_ws/install/radar_pkg/lib/radar_pkg/main.exe
+[5.984s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/ament_index/resource_index/package_run_dependencies/radar_pkg
+[5.984s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/ament_index/resource_index/parent_prefix_path/radar_pkg
+[5.984s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/ament_prefix_path.bat
+[5.984s] -- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/ament_prefix_path.dsv
+[5.984s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/path.bat
+[5.984s] -- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/path.dsv
+[6.000s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/local_setup.bat
+[6.000s] -- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/local_setup.dsv
+[6.000s] -- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/package.dsv
+[6.000s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/ament_index/resource_index/packages/radar_pkg
+[6.000s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/cmake/radar_pkgConfig.cmake
+[6.000s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/cmake/radar_pkgConfig-version.cmake
+[6.000s] -- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/package.xml
+[6.016s] Invoked command in 'C:\radar_ws\build\radar_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\radar_ws\build\radar_pkg --config Release

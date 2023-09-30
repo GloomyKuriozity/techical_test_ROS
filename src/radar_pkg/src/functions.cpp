@@ -69,3 +69,17 @@ void processObstacle(int visibility, int numObstacles,std::istream& input){
     }
     std::cout << std::endl;
 }
+
+bool fileExists(const std::string& fileName) {
+    /*
+        Check if file exists at the end of given path
+    
+        Args:
+            fileName (string&): path with name of the file
+        
+        Returns:
+            "" (bool): True if it exists, else False.
+    */
+    std::ifstream file(fileName);
+    return file.good();
+}

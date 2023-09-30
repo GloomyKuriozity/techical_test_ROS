@@ -11,20 +11,6 @@ NOTE - None :)
 #include <fstream>
 #include "functions.h"
 
-bool fileExists(const std::string& fileName) {
-    /*
-        Check if file exists at the end of given path
-    
-        Args:
-            fileName (string&): path with name of the file
-        
-        Returns:
-            "" (bool): True if it exists, else False.
-    */
-    std::ifstream file(fileName);
-    return file.good();
-}
-
 // To run this code you need to write main /path/to/inputX.txt
 // Pass inputX in argument to know if it exist or not
 int main(int argc, char* argv[]){

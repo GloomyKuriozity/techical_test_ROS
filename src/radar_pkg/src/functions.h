@@ -19,5 +19,6 @@ struct Obstacle {
 };
 
 void processObstacle(int visibility, int numObstacles,std::istream& input);
+bool fileExists(const std::string& fileName);
 
 #endif // FUNCTIONS_H
