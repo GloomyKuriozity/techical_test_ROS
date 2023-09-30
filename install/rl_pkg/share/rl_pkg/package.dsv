@@ -1,0 +1,9 @@
+source;share\rl_pkg\hook\cmake_prefix_path.ps1
+source;share\rl_pkg\hook\cmake_prefix_path.bat
+source;share\rl_pkg\hook\cmake_prefix_path.dsv
+source;share\rl_pkg\hook\path.ps1
+source;share\rl_pkg\hook\path.bat
+source;share\rl_pkg\hook\path.dsv
+source;share/rl_pkg/local_setup.bat
+source;share/rl_pkg/local_setup.dsv
+source;share/rl_pkg/local_setup.ps1

@@ -9,6 +9,7 @@ NOTE - None :)
 
 #include <iostream>
 #include <vector>
+#include <iomanip>
 
 std::pair<double, double> linearRegression(const std::vector<std::pair<double, double>>& data) {
     /*
@@ -52,6 +53,7 @@ std::pair<double, double> linearRegression(const std::vector<std::pair<double, d
     return slope_intercept;
 }
 
+//This node will be used through the command main2 < C:\ws\techical_test_ROS\rl_ws\src\rl_pkg\include\input.txt
 int main() {
     //Create a vector that will stack up all the points
     //Create coordinates recipients that will be stack up for every points
@@ -65,6 +67,14 @@ int main() {
     //The formula for simple linear regression is Y = mX + b, says Google
     //I doubt data will often be linear between eachother, but let's find m and b anyway
     std::pair<double, double> result = linearRegression(data);
+
+    //Cut the result into displayable variables
+    double slope = result.first;
+    double intercept = result.second;
+
+    //Display the equation of the line
+    std::cout << "Linear Regression Equation: y = " << std::fixed << std::setprecision(2) << slope << "x + " << intercept << std::endl;
+
 
     return 0;
 }
