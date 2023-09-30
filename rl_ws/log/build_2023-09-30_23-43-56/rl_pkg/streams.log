@@ -1,0 +1,70 @@
+[0.110s] Invoking command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\rl_ws\src\rl_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\rl_ws\install\rl_pkg -G Visual Studio 16 2019
+[0.250s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+[2.188s] -- The C compiler identification is MSVC 19.29.30152.0
+[3.360s] -- The CXX compiler identification is MSVC 19.29.30152.0
+[3.422s] -- Detecting C compiler ABI info
+[4.485s] -- Detecting C compiler ABI info - done
+[4.500s] -- Check for working C compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[4.500s] -- Detecting C compile features
+[4.500s] -- Detecting C compile features - done
+[4.516s] -- Detecting CXX compiler ABI info
+[5.594s] -- Detecting CXX compiler ABI info - done
+[5.625s] -- Check for working CXX compiler: C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.29.30133/bin/Hostx64/x64/cl.exe - skipped
+[5.625s] -- Detecting CXX compile features
+[5.625s] -- Detecting CXX compile features - done
+[5.657s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[5.829s] -- Found PythonInterp: C:/msys64/mingw64/bin/python3.exe (found suitable version "3.9.6", minimum required is "3") 
+[5.829s] -- Using PYTHON_EXECUTABLE: C:/msys64/mingw64/bin/python3.exe
+[6.547s] -- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+[6.813s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.875s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[7.313s] -- Found OpenSSL: C:/opt/ros/foxy/x64/Lib/libcrypto.lib (found version "1.1.1g")  
+[7.563s] -- Found FastRTPS: C:/opt/ros/foxy/x64/include  
+[8.219s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.485s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[8.485s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.500s] -- Looking for pthread.h
+[9.266s] -- Looking for pthread.h - not found
+[9.266s] -- Found Threads: TRUE  
+[9.657s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[10.047s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.063s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.063s] -- Configured cppcheck include dirs: C:/ws/techical_test_ROS/rl_ws/src/rl_pkg/include
+[10.063s] -- Configured cppcheck exclude dirs and/or files: 
+[10.079s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.079s] -- Configured cpplint exclude dirs and/or files: 
+[10.094s] -- Added test 'lint_cmake' to check CMake code style
+[10.110s] -- Added test 'uncrustify' to check C / C++ code style
+[10.110s] -- Configured uncrustify additional arguments: 
+[10.125s] -- Added test 'xmllint' to check XML markup files
+[10.204s] -- Configuring done
+[10.438s] -- Generating done
+[10.469s] -- Build files have been written to: C:/ws/techical_test_ROS/rl_ws/build/rl_pkg
+[10.485s] Invoked command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\rl_ws\src\rl_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\rl_ws\install\rl_pkg -G Visual Studio 16 2019
+[10.500s] Invoking command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release
+[10.782s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[10.782s] Copyright (C) Microsoft Corporation. All rights reserved.
+[10.782s] 
+[11.313s]   Checking Build System
+[11.547s]   Building Custom Rule C:/ws/techical_test_ROS/rl_ws/src/rl_pkg/CMakeLists.txt
+[11.782s]   main2.cpp
+[12.516s]   main2.vcxproj -> C:\ws\techical_test_ROS\rl_ws\build\rl_pkg\Release\main2.exe
+[12.579s]   Building Custom Rule C:/ws/techical_test_ROS/rl_ws/src/rl_pkg/CMakeLists.txt
+[12.688s] Invoked command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg' returned '0': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release
+[12.844s] Invoking command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release
+[12.985s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/bin/main2.exe
+[12.985s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/lib/rl_pkg/main2.exe
+[12.985s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/ament_index/resource_index/package_run_dependencies/rl_pkg
+[13.000s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/ament_index/resource_index/parent_prefix_path/rl_pkg
+[13.000s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/environment/ament_prefix_path.bat
+[13.000s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/environment/ament_prefix_path.dsv
+[13.000s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/environment/path.bat
+[13.000s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/environment/path.dsv
+[13.016s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/local_setup.bat
+[13.016s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/local_setup.dsv
+[13.016s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/package.dsv
+[13.016s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/ament_index/resource_index/packages/rl_pkg
+[13.016s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/cmake/rl_pkgConfig.cmake
+[13.032s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/cmake/rl_pkgConfig-version.cmake
+[13.032s] -- Installing: C:/ws/techical_test_ROS/rl_ws/install/rl_pkg/share/rl_pkg/package.xml
+[13.047s] Invoked command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release

@@ -21,7 +21,7 @@ find_package(rclcpp REQUIRED)
 
 include_directories(include)
 
-add_executable(main2 src/main2.cpp)
+add_executable(main src/main.cpp)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -29,11 +29,11 @@ if(BUILD_TESTING)
 endif()
 
 install(TARGETS
-  main2
+  main
   DESTINATION bin)
 
 install(TARGETS
-  main2
+  main
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
