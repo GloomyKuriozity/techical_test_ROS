@@ -1,0 +1,13 @@
+C:/ws/techical_test_ROS/install/rl_pkg/share/ament_index/resource_index/package_run_dependencies/rl_pkg
+C:/ws/techical_test_ROS/install/rl_pkg/share/ament_index/resource_index/parent_prefix_path/rl_pkg
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/ament_prefix_path.bat
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/ament_prefix_path.dsv
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/path.bat
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/path.dsv
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/local_setup.bat
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/local_setup.dsv
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/package.dsv
+C:/ws/techical_test_ROS/install/rl_pkg/share/ament_index/resource_index/packages/rl_pkg
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/cmake/rl_pkgConfig.cmake
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/cmake/rl_pkgConfig-version.cmake
+C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/package.xml
