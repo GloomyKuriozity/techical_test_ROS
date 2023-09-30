@@ -74,38 +74,6 @@ CMAKE_BINARY_DIR = C:\ws\techical_test_ROS\build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\ctest.exe --force-new-ctest-process $(ARGS)
-.PHONY : test
-
-# Special rule for the target test
-test/fast: test
-
-.PHONY : test/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -140,6 +108,38 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	C:\opt\ros\foxy\x64\Lib\site-packages\cmake\data\bin\ctest.exe --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # Special rule for the target install/strip
 install/strip: preinstall
@@ -212,44 +212,44 @@ rl_pkg_uninstall/fast:
 .PHONY : rl_pkg_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named main2
+# Target rules for targets named main
 
 # Build rule for target.
-main2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main2
-.PHONY : main2
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-main2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main2.dir\build.make CMakeFiles/main2.dir/build
-.PHONY : main2/fast
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-src/main2.obj: src/main2.cpp.obj
+src/main.obj: src/main.cpp.obj
 
-.PHONY : src/main2.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-src/main2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main2.dir\build.make CMakeFiles/main2.dir/src/main2.cpp.obj
-.PHONY : src/main2.cpp.obj
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
 
-src/main2.i: src/main2.cpp.i
+src/main.i: src/main.cpp.i
 
-.PHONY : src/main2.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/main2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main2.dir\build.make CMakeFiles/main2.dir/src/main2.cpp.i
-.PHONY : src/main2.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-src/main2.s: src/main2.cpp.s
+src/main.s: src/main.cpp.s
 
-.PHONY : src/main2.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/main2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main2.dir\build.make CMakeFiles/main2.dir/src/main2.cpp.s
-.PHONY : src/main2.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -266,10 +266,10 @@ help:
 	@echo ... test
 	@echo ... rl_pkg_uninstall
 	@echo ... uninstall
-	@echo ... main2
-	@echo ... src/main2.obj
-	@echo ... src/main2.i
-	@echo ... src/main2.s
+	@echo ... main
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 

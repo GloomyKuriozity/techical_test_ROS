@@ -1,7 +1,0 @@
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/uninstall.dir
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/rl_pkg_uninstall.dir
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/main2.dir
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/INSTALL.dir
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/RUN_TESTS.dir
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/ALL_BUILD.dir
-C:/ws/techical_test_ROS/build/rl_pkg/CMakeFiles/ZERO_CHECK.dir

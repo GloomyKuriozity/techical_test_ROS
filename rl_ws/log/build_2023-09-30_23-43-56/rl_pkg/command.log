@@ -1,6 +1,0 @@
-Invoking command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\rl_ws\src\rl_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\rl_ws\install\rl_pkg -G Visual Studio 16 2019
-Invoked command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\rl_ws\src\rl_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\rl_ws\install\rl_pkg -G Visual Studio 16 2019
-Invoking command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release
-Invoked command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg' returned '0': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release
-Invoking command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release
-Invoked command in 'C:\ws\techical_test_ROS\rl_ws\build\rl_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\ws\techical_test_ROS\rl_ws\build\rl_pkg --config Release

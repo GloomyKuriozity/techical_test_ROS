@@ -1,2 +1,0 @@
-Invoking command in 'C:\ws\techical_test_ROS\build\radar_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\radar_ws\src\radar_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\install\radar_pkg -G Visual Studio 16 2019
-Invoked command in 'C:\ws\techical_test_ROS\build\radar_pkg' returned '1': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\radar_ws\src\radar_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\install\radar_pkg -G Visual Studio 16 2019

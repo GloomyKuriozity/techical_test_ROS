@@ -1,7 +1,7 @@
 [
 {
   "directory": "C:/ws/techical_test_ROS/build",
-  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main2.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles\\main2.dir\\src\\main2.cpp.obj -c C:\\ws\\techical_test_ROS\\rl_ws\\src\\rl_pkg\\src\\main2.cpp",
-  "file": "C:/ws/techical_test_ROS/rl_ws/src/rl_pkg/src/main2.cpp"
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\ws\\techical_test_ROS\\rl_ws\\src\\rl_pkg\\src\\main.cpp",
+  "file": "C:/ws/techical_test_ROS/rl_ws/src/rl_pkg/src/main.cpp"
 }
 ]
