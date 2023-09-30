@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/radar_ws/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DSPDLOG_COMPILED_LIB -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/main.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c C:\\radar_ws\\src\\radar_pkg\\src\\main.cpp",
+  "file": "C:/radar_ws/src/radar_pkg/src/main.cpp"
+},
+{
+  "directory": "C:/radar_ws/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DSPDLOG_COMPILED_LIB -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/main.dir/includes_CXX.rsp -g -Wall -Wextra -Wpedantic -std=gnu++14 -o CMakeFiles\\main.dir\\src\\functions.cpp.obj -c C:\\radar_ws\\src\\radar_pkg\\src\\functions.cpp",
+  "file": "C:/radar_ws/src/radar_pkg/src/functions.cpp"
+}
+]
