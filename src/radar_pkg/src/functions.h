@@ -2,6 +2,7 @@
 #define FUNCTIONS_H
 
 #include <vector>
+#include <fstream>
 
 struct Obstacle {
     /*
@@ -17,6 +18,6 @@ struct Obstacle {
     int y;
 };
 
-void processObstacle(int visibility, int numObstacles);
+void processObstacle(int visibility, int numObstacles,std::istream& input);
 
 #endif // FUNCTIONS_H

@@ -3,6 +3,7 @@
 #include <algorithm>
 #include <cmath>
 #include <iostream>
+#include <fstream>
 
 bool sortByAngle(const Obstacle& a, const Obstacle& b) {
     /*
@@ -26,13 +27,14 @@ bool sortByAngle(const Obstacle& a, const Obstacle& b) {
     return angleA < angleB;
 }
 
-void processObstacle(int visibility, int numObstacles){
+void processObstacle(int visibility, int numObstacles,std::istream& input){
     /*
         Display obstacle in order of detection
 
         Args:
             visibility (int): radar range of visibility
             numObstacles (int): number of obstacle in environment
+            input (istream): file input with given data
     */
    
     std::vector<Obstacle> obstacles;
@@ -41,7 +43,13 @@ void processObstacle(int visibility, int numObstacles){
     //BUT only consider obstacle in visibility range
     for (int i = 0; i < numObstacles; ++i) {
         int x, y;
-        std::cin >> x >> y;
+
+        //Check if coordinates are correctly retreived
+        if (!(input >> x >> y)) {
+            std::cerr << "Error: Unable to read obstacle data from input." << std::endl;
+            return;
+        }
+
         if (x * x + y * y <= visibility * visibility) {
             Obstacle obstacle;
             obstacle.index = i;

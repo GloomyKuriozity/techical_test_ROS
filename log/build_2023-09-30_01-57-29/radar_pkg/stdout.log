@@ -1,0 +1,43 @@
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+-- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: C:/msys64/mingw64/bin/python3.exe
+-- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: C:/radar_ws/src/radar_pkg/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/radar_ws/build/radar_pkg
+Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  main.cpp
+  main.vcxproj -> C:\radar_ws\build\radar_pkg\Release\main.exe
+-- Installing: C:/radar_ws/install/radar_pkg/bin/main.exe
+-- Installing: C:/radar_ws/install/radar_pkg/lib/radar_pkg/main.exe
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/ament_index/resource_index/package_run_dependencies/radar_pkg
+-- Installing: C:/radar_ws/install/radar_pkg/share/ament_index/resource_index/parent_prefix_path/radar_pkg
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/ament_prefix_path.bat
+-- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/path.bat
+-- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/environment/path.dsv
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/local_setup.bat
+-- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/local_setup.dsv
+-- Installing: C:/radar_ws/install/radar_pkg/share/radar_pkg/package.dsv
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/ament_index/resource_index/packages/radar_pkg
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/cmake/radar_pkgConfig.cmake
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/cmake/radar_pkgConfig-version.cmake
+-- Up-to-date: C:/radar_ws/install/radar_pkg/share/radar_pkg/package.xml

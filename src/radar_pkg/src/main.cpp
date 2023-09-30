@@ -12,6 +12,15 @@ NOTE - None :)
 #include "functions.h"
 
 bool fileExists(const std::string& fileName) {
+    /*
+        Check if file exists at the end of given path
+    
+        Args:
+            fileName (string&): path with name of the file
+        
+        Returns:
+            "" (bool): True if it exists, else False.
+    */
     std::ifstream file(fileName);
     return file.good();
 }
@@ -19,27 +28,44 @@ bool fileExists(const std::string& fileName) {
 // To run this code you need to write main /path/to/inputX.txt
 // Pass inputX in argument to know if it exist or not
 int main(int argc, char* argv[]){
-
+    //Check if path correct
     if (argc != 2) {
-        std::cerr << "Usage: " << argv[0] << " <input_file_name>" << std::endl;
+        std::cerr << "Usage: " << argv[0] << " <input_file_path>" << std::endl;
         return 1;
     }
 
-    std::string inputFileName = argv[1];
+    //Retreive path
+    std::string filePath = argv[1];
+
+    //Check if file exist or/and can be accessed
+    if (!fileExists(filePath)) {
+        std::cerr << "Error: Input file '" << filePath << "' does not exist or is not accessible." << std::endl;
+        return 1;
+    }
+
+    //Check if file can be opened
+    std::ifstream inputFile(filePath);
+    if (!inputFile) {
+        std::cerr << "Error: Unable to open input file '" << filePath << "'." << std::endl;
+        return 1; 
+    }
+
     int visibility;
     int numObstacles;
 
-    if (!fileExists(inputFileName)) {
-        std::cerr << "Error: Input file '" << inputFileName << "' does not exist." << std::endl;
+    //Check if visibility has been correctly retreived from inputX
+    if (!(inputFile >> visibility)) {
+        std::cerr << "Error: Unable to read visibility from the input file." << std::endl;
+        return 1;
+    }
+    
+    //Check if number of obstacles has been correctly retreived from inputX
+    if (!(inputFile >> numObstacles)) {
+        std::cerr << "Error: Unable to read the number of obstacles from the input file." << std::endl;
         return 1;
     }
 
-    std::ifstream inputFile(inputFileName);
-
-    inputFile >> visibility;
-    inputFile >> numObstacles;
-
-    processObstacle(visibility, numObstacles);
+    processObstacle(visibility, numObstacles,inputFile);
 
     return 0;
 }
