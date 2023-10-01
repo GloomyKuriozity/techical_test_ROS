@@ -1,6 +1,0 @@
-Invoking command in 'C:\radar_ws\build\radar_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\radar_ws\src\radar_pkg -DCMAKE_INSTALL_PREFIX=C:\radar_ws\install\radar_pkg
-Invoked command in 'C:\radar_ws\build\radar_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\radar_ws\src\radar_pkg -DCMAKE_INSTALL_PREFIX=C:\radar_ws\install\radar_pkg
-Invoking command in 'C:\radar_ws\build\radar_pkg': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\radar_ws\build\radar_pkg --config Release
-Invoked command in 'C:\radar_ws\build\radar_pkg' returned '0': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\radar_ws\build\radar_pkg --config Release
-Invoking command in 'C:\radar_ws\build\radar_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\radar_ws\build\radar_pkg --config Release
-Invoked command in 'C:\radar_ws\build\radar_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\radar_ws\build\radar_pkg --config Release

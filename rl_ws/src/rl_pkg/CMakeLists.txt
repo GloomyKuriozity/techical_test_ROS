@@ -21,7 +21,7 @@ find_package(rclcpp REQUIRED)
 
 include_directories(include)
 
-add_executable(main2 src/main.cpp)
+add_executable(main2 src/main.cpp src/functions.cpp)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
