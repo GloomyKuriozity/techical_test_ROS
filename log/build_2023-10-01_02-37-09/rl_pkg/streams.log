@@ -1,0 +1,50 @@
+[0.110s] Invoking command in 'C:\ws\techical_test_ROS\build\rl_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\rl_ws\src\rl_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\install\rl_pkg
+[0.250s] -- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.19045.
+[0.297s] -- Found ament_cmake: 0.9.9 (C:/opt/ros/foxy/x64/share/ament_cmake/cmake)
+[0.391s] -- Using PYTHON_EXECUTABLE: C:/msys64/mingw64/bin/python3.exe
+[0.891s] -- Found rclcpp: 2.4.0 (C:/opt/ros/foxy/x64/share/rclcpp/cmake)
+[1.000s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.016s] -- Found rosidl_adapter: 1.2.1 (C:/opt/ros/foxy/x64/share/rosidl_adapter/cmake)
+[2.344s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.500s] -- Found rmw_implementation_cmake: 1.0.3 (C:/opt/ros/foxy/x64/share/rmw_implementation_cmake/cmake)
+[2.500s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.735s] -- Found ament_lint_auto: 0.9.6 (C:/opt/ros/foxy/x64/share/ament_lint_auto/cmake)
+[2.938s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.954s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.954s] -- Configured cppcheck include dirs: C:/ws/techical_test_ROS/rl_ws/src/rl_pkg/include
+[2.954s] -- Configured cppcheck exclude dirs and/or files: 
+[2.954s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.954s] -- Configured cpplint exclude dirs and/or files: 
+[2.954s] -- Added test 'lint_cmake' to check CMake code style
+[2.969s] -- Added test 'uncrustify' to check C / C++ code style
+[2.969s] -- Configured uncrustify additional arguments: 
+[2.969s] -- Added test 'xmllint' to check XML markup files
+[3.047s] -- Configuring done
+[3.438s] -- Generating done
+[3.454s] -- Build files have been written to: C:/ws/techical_test_ROS/build/rl_pkg
+[3.469s] Invoked command in 'C:\ws\techical_test_ROS\build\rl_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE C:\ws\techical_test_ROS\rl_ws\src\rl_pkg -DCMAKE_INSTALL_PREFIX=C:\ws\techical_test_ROS\install\rl_pkg
+[3.469s] Invoking command in 'C:\ws\techical_test_ROS\build\rl_pkg': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\ws\techical_test_ROS\build\rl_pkg --config Release
+[3.750s] Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+[3.750s] Copyright (C) Microsoft Corporation. All rights reserved.
+[3.750s] 
+[4.563s]   main.cpp
+[4.938s] C:\ws\techical_test_ROS\rl_ws\src\rl_pkg\src\main.cpp(32,24): warning C4267: 'initialisation'ÿ: conversion de 'size_t' en 'int', perte possible de donn‚es [C:\ws\techical_test_ROS\build\rl_pkg\main2.vcxproj]
+[5.750s]   main2.vcxproj -> C:\ws\techical_test_ROS\build\rl_pkg\Release\main2.exe
+[5.829s] Invoked command in 'C:\ws\techical_test_ROS\build\rl_pkg' returned '0': CL=/MP C:\opt\ros\foxy\x64\Scripts\cmake.EXE --build C:\ws\techical_test_ROS\build\rl_pkg --config Release
+[5.829s] Invoking command in 'C:\ws\techical_test_ROS\build\rl_pkg': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\ws\techical_test_ROS\build\rl_pkg --config Release
+[5.969s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/bin/main2.exe
+[5.985s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/lib/rl_pkg/main2.exe
+[5.985s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/ament_index/resource_index/package_run_dependencies/rl_pkg
+[5.985s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/share/ament_index/resource_index/parent_prefix_path/rl_pkg
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/ament_prefix_path.bat
+[6.000s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/ament_prefix_path.dsv
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/path.bat
+[6.000s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/environment/path.dsv
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/local_setup.bat
+[6.000s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/local_setup.dsv
+[6.000s] -- Installing: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/package.dsv
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/ament_index/resource_index/packages/rl_pkg
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/cmake/rl_pkgConfig.cmake
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/cmake/rl_pkgConfig-version.cmake
+[6.000s] -- Up-to-date: C:/ws/techical_test_ROS/install/rl_pkg/share/rl_pkg/package.xml
+[6.032s] Invoked command in 'C:\ws\techical_test_ROS\build\rl_pkg' returned '0': C:\opt\ros\foxy\x64\Scripts\cmake.EXE --install C:\ws\techical_test_ROS\build\rl_pkg --config Release
