@@ -155,7 +155,7 @@ int main() {
 
     int n = 2;       //Number of points required to create an initial model
     int k = 85;      //Number of iterations
-    double t = 0.02; //Threshold value for error
+    double t = 0.03; //Threshold value for error
     int d = 20;      //Minimum number of points required for a valid model
 
     //The formula for simple linear regression is Y = mX + b, says Google
