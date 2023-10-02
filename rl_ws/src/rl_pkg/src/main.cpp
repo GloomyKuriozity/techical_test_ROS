@@ -19,8 +19,8 @@ The complexity of the algorithm is determine
 by the number of operation guaranted we can expect
 during its processing. In this case, if we consider
 the number of points n and iterations k:
-> Initialization: O(1)
-> Loop : O(nk)
+> Initialization: O(n)
+> Loop : O(k)
 > Loop insides: O(1)
 > Error: O(1)
 > Model: O(1)
@@ -31,6 +31,11 @@ This algorithm is commonly called RANSAC (Random Sample Consensus)
 and its basically taking samples at random, creating a row of inclusion of
 sample and settle for the most inclusive and error-less model.
 
+For n=2 and a probability of 0.23 to pick an inlier point
+P(not_select_n_inlier) = (1 - P(select_inlier))^n = (0.77)^n
+P(select_n_inlier_every_k_iteration) = 0.99 <= 1 - P(not_select_n_inlier)^k 
+0.99 <= 1 - 0.77^(nk)
+k = ln(0.01)/(n*ln(0.77))
 */
 
 //This node will be used through the command main2 < C:\ws\techical_test_ROS\rl_ws\src\rl_pkg\include\input.txt
