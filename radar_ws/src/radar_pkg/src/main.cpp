@@ -1,6 +1,6 @@
 /****************************************
 PROGRAM NAME - main
-PROGRAMMER - Kuriozity
+PROGRAMMER - Mélanie Geulin (melanie.geulin@gmail.com)
 LANGUAGE - C++
 SYSTEM - Windows 11
 CREATION DATE - 29/09/2023
